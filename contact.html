@@ -17,24 +17,62 @@
 
         <nav>
             <div class="nav">
-                <a href="info.html" target="_blank">
+                <a href="info.html">
                     <img src="Informacion.png" class="icons">Información
                 </a>
-                <a href="index.html" target="_blank">
+                <a href="index.html">
                     <img src="Principal.png" class="icons">Principal
                 </a>
-                <a href="contact.html" target="_blank">
+                <a href="contact.html">
                     <img src="Contacto.png" class="icons">Contacto
                 </a>
             </div>
         </nav>
 
         <main>
+            <h2>Formulario de Consultas</h2>
+            <p>Porfavor rellene el formulario con la información requerida</p>
+            <form action="#">
+                <fieldset>
+                    <label for="name">Nombre:
+                        <input type="text" name="first-name" required />
+                    </label>
+                    <label for="last-name">Apellido: 
+                        <input type="text" name="last-name" required />
+                    </label>
+                    <label for="email">Email: 
+                        <input type="email" name="email" required />
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                      <label for="terms"><input type="checkbox" name="terms" class="inline" required />Acepto los
+                        <a href="Términos y Condiciones.txt" download>términos y condiciones</a>
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <label for="file">Suba una foto de su peinado
+                        <input type="file" name="file" />
+                    </label>
+                    <label for="age">Edad(Número):
+                        <input type="number" name="age" min="13" max="120" />
+                    </label>
+                    <label for="referrer">Como nos conociste?
+                        <select name="referrer">
+                          <option value="">(Seleccionar Uno)</option>
+                          <option value="1">Amigos</option>
+                          <option value="2">Redes Sociales</option>
+                          <option value="3">Publicidad</option>
+                          <option value="4">Otro</option>
+                        </select>
+                    </label>
+                    </fieldset>
+                <input type="submit" value="Submit"/>
+            </form>
         </main>
-
         <aside>
         </aside>
-        
         <footer>
             <p>© 2003 - 2022, Lucas Diaz. All rights reserved. </p>
         </footer>
