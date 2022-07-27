@@ -18,15 +18,17 @@ h1 {
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #ffffff;
     opacity: 0.6;
 }
   
 .nav a {
     text-align: center;
+    background-color: #ffffff;
     color: #000000;
     padding: 14px 16px;
     text-decoration: none;
+    border: 2px solid black;
+    border-radius: 100px;
     font-family: 'Fredoka One', 'cursive';
     font-size: 17px;
 }
@@ -34,4 +36,10 @@ h1 {
 .nav a:hover {
     background-color: #000000;
     color: #ffffff;
+}
+
+.icons {
+    vertical-align:text-top;
+    width: 20px;
+    height: 20px;
 }
