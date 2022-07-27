@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-image: url("white-theme.jpg");
+    overflow: visible;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    background-image: ;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #5634eb;
+}
+  
+.nav a {
+    text-align: center;
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Fredoka One', 'cursive';
+    font-size: 17px;
+}
+  
+.nav a:hover {
+    background-color: #d5ccf3;
+    color: #000000;
+}
