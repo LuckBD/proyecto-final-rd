@@ -1,19 +1,25 @@
 body {
     margin: 0;
-    background-image: url("white-theme.jpg");
+    background-image: url("images/white-theme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: visible;
 }
 
 h1 {
     margin: 0;
     text-align: center;
-    background-image: ;
+    font-family: 'Monoton', 'cursive';
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.8;
 }
 
 .nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #5634eb;
+    background-color: #ffffff;
+    opacity: 0.6;
 }
   
 .nav a {
@@ -26,6 +32,6 @@ h1 {
 }
   
 .nav a:hover {
-    background-color: #d5ccf3;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
